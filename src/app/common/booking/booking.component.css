@@ -1,0 +1,38 @@
+/* Add this to your booking.component.css */
+
+/* Make geocoder search box more prominent */
+:host ::ng-deep .leaflet-control-geocoder {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 8px !important;
+    width: 300px !important;
+  }
+  
+  :host ::ng-deep .leaflet-control-geocoder-form input {
+    padding: 10px 12px !important;
+    font-size: 16px !important;
+    border-radius: 8px !important;
+    border: 1px solid #ced4da !important;
+  }
+  
+  :host ::ng-deep .leaflet-control-geocoder-form input:focus {
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25) !important;
+    outline: none !important;
+  }
+  
+  /* Style for address refinement section */
+  .address-refinement {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border: 1px solid #dee2e6;
+  }
+  
+  /* Make map more prominent */
+  #map {
+    height: 350px !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dee2e6;
+  }
